@@ -1,0 +1,86 @@
+ # Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environnements virtuels
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Logs et bases de données
+*.log
+*.sqlite
+*.db
+
+# Dossiers de cache
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Fichiers de configuration locaux
+instance/
+.webassets-cache
+
+# Fichiers PDF temporaires
+temp/
+uploads/
+pdf_storage/
+
+# Prefect
+.prefect/
+prefect.yaml
+
+# Documentation générée
+docs/_build/
+site/
+
+# Fichiers de déploiement
+*.env
+.env.*
+!.env.example
+
+# Autres
+*.bak
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+.mypy_cache

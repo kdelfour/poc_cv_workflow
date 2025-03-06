@@ -1,0 +1,188 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "formations": {
+        "type": "array",
+        "items": [
+          {
+            "type": "object",
+            "properties": {
+              "periode": {
+                "type": "string"
+              },
+              "diplome": {
+                "type": "string"
+              },
+              "etablissement": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "periode",
+              "diplome",
+              "etablissement",
+              "description"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "periode": {
+                "type": "string"
+              },
+              "diplome": {
+                "type": "string"
+              },
+              "etablissement": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "periode",
+              "diplome",
+              "etablissement",
+              "description"
+            ]
+          }
+        ]
+      },
+      "experiences_professionnelles": {
+        "type": "array",
+        "items": [
+          {
+            "type": "object",
+            "properties": {
+              "periode": {
+                "type": "string"
+              },
+              "poste": {
+                "type": "string"
+              },
+              "entreprise": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              },
+              "competences": {
+                "type": "array",
+                "items": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "string"
+                  }
+                ]
+              }
+            },
+            "required": [
+              "periode",
+              "poste",
+              "entreprise",
+              "description",
+              "competences"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "periode": {
+                "type": "string"
+              },
+              "poste": {
+                "type": "string"
+              },
+              "entreprise": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              },
+              "competences": {
+                "type": "array",
+                "items": {}
+              }
+            },
+            "required": [
+              "periode",
+              "poste",
+              "entreprise",
+              "description",
+              "competences"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "periode": {
+                "type": "string"
+              },
+              "poste": {
+                "type": "string"
+              },
+              "entreprise": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              },
+              "competences": {
+                "type": "array",
+                "items": {}
+              }
+            },
+            "required": [
+              "periode",
+              "poste",
+              "entreprise",
+              "description",
+              "competences"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "periode": {
+                "type": "string"
+              },
+              "poste": {
+                "type": "string"
+              },
+              "entreprise": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              },
+              "competences": {
+                "type": "array",
+                "items": {}
+              }
+            },
+            "required": [
+              "periode",
+              "poste",
+              "entreprise",
+              "description",
+              "competences"
+            ]
+          }
+        ]
+      }
+    },
+    "required": [
+      "formations",
+      "experiences_professionnelles"
+    ]
+  }
