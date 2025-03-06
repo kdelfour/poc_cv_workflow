@@ -202,10 +202,19 @@ prefect orion start
 Créez un fichier `.env` avec les variables suivantes :
 
 ```env
-OPENAI_API_KEY=votre_clé_api_openai_ici
-PDF_STORAGE_PATH=/chemin/vers/stockage
-MAX_UPLOAD_SIZE=10485760
-DEBUG_MODE=False
+# Configuration des clés API
+OPENAI_API_KEY=your_openai_api_key
+
+# Configuration OpenAI
+OPENAI_MODEL=gpt-4o-mini
+OPENAI_TEMPERATURE=0.2
+
+# Configuration des métiers
+METIERS_FILE_PATH=datas/unix_cr_gd_dp_v458_utf8.csv
+METIERS_CACHE_TTL=7200
+
+# Configuration des logs
+LOG_LEVEL=INFO
 ```
 
 ## 📚 API Reference
